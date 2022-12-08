@@ -18,6 +18,33 @@ const gamesArr = [
     controls: [`W/I: Jump`, `E/O: Shoot`]
   },
   {
+    filter: [`shoot`, `mp`, `fight`],
+    link: `rooftop-snipers-2`,
+    imgsrc: `rooftop-snipers-2.jpg`,
+    name: `Rooftop Snipers 2`,
+    developer: `Pat Eichler`,
+    desc: `Rooftop Snipers 2 is a chaotic two button local multiplayer game. Challenge your friends side by side or play the computer. Shoot your opponent off the map to win.`,
+    controls: [`W/I: Jump`, `E/O: Shoot`]
+  },
+  {
+    filter: [`mp`, `misc`],
+    link: `uno-online`,
+    imgsrc: `uno-online.png`,
+    name: `Uno Online`,
+    developer: `Merle Robbins`,
+    desc: `UNO Online is a multi-player card game in which the objective is to be the first player to get rid of all the cards in their hand. Each player is dealt 7 cards and players take turn drawing cards from the deck.`,
+    controls: [`Mouse`]
+  },
+  {
+    filter: ['mp'],
+    link: `just-fall-lol`,
+    imgsrc: `just-fall-lol.png`,
+    name: `Just Fall.lol`,
+    developer: `Unknown`,
+    desc: `Play the fun Fall Ultimate Knockout Guys game directly from your PC without download, just in your browser! Try out the penguin hexagon Fall Multiplayer Game.`,
+    controls: [`Keyboard`]
+  },
+  {
     filter: [`mp`],
     link: `tube-jumpers`,
     imgsrc: `tj.jpg`,
@@ -341,6 +368,42 @@ const gamesArr = [
     developer: `RHM Interactive`,
     desc: `In Basket Random game, try to score a basket by using only one key with different variations from each other! Changing fields, changing players and changing balls do not surprise you! You can be the best of them all. You can play Basket Random game either against CPU or against a friend in 2 player gaming mode!.`,
     controls: [`W/UP ARROW`]
+  },
+  {
+    filter: [`mp`, `sport`,'fight'],
+    link: `volley-random`,
+    imgsrc: `volley-random.jpg`,
+    name: `Volley Random`,
+    developer: `RHM Interactive`,
+    desc: `There is a Volleyball experience unlike any before. With fun ragdoll physics and a variety of variations, each match will be different. The playing court, ball and players may change.`,
+    controls: [`W/UP ARROW`]
+  },
+  {
+    filter: ['misc'],
+    link: `elastic-face`,
+    imgsrc: `elastic-face.jpg`,
+    name: `Elastic Face`,
+    developer: `Adult Swim Games`,
+    desc: 'Elastic Man is an entertaining arcade game in which you can be free to play with an elastic face. Drag and pinch his face to relax and reduce stress.',
+    controls: ['Mouse']
+  },
+  {
+    filter: ['misc'],
+    link: `subway-surfers`,
+    imgsrc: `subway-surfers.png`,
+    name: `Subway Surfers`,
+    developer: `Kiloo Gmaes/SYBO`,
+    desc: 'Single player mobile gaming app and website developed by Kiloo. The aim of the game is to outrun a train inspector while dodging oncoming trains, barriers and other objects. Collecting coins on the way gives players advantages such as hover boards and high scores.',
+    controls: ['Mouse/Arrow Keys']
+  },
+  {
+    filter: ['flash', 'drive'],
+    link: `earn-to-die-2012-part-2`,
+    imgsrc: `earn-to-die-2012-part-2.png`,
+    name: `Earn to Die 2012 Part 2`,
+    developer: `Not Doppler`,
+    desc: `Drive your car through a zombie apocalypse! Earn to Die 2 is set in a world where the struggle for survival is told through the eyes of only a few people who have survived the zombie apocalypse. Hordes of zombies have taken over the world. One of the last survivors is the player.`,
+    controls: [`Arrow Keys/Mouse`]
   },
   {
     filter: [`puzzle`],
