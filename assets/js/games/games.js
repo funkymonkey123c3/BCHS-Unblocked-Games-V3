@@ -441,6 +441,33 @@ const gamesArr = [
     controls: [`Arrow Keys/WASD/Mouse`]
   },
   {
+    filter: [`misc`],
+    link: `ball-blast`,
+    imgsrc: `ball-blast.png`,
+    name: `Ball Blast`,
+    developer: `fluci2010`,
+    desc: `UNOFFICIAL GAME: Ball Blast is the best ball shooting game you have never seen before. It has the mix fun of shooting and dodge. Your task is to shoot things in your sight and break them as many as you can. Keep moving and avoid hitting the drops. The more you break, the more you earn.`,
+    controls: [`Mouse`]
+  },
+  {
+    filter: [`misc`],
+    link: `soccer-random`,
+    imgsrc: `soccer-random.png`,
+    name: `Soccer Random`,
+    developer: `RHM Interactive`,
+    desc: `ootball is here with its most funny and random way. In Soccer Random game, try to score a goal by using only one key with different variations from each other! Sometimes you will play on a iced field or you will play on a beach. The goal of the game is, to score five goals and win the game even the balls, players or goal posts change! You can play Soccer Random game either against CPU or against a friend in 2 player gaming mode! Let the soccer match begin!`,
+    controls: [`W/Up Arrow`]
+  },
+  {
+    filter: [`misc`],
+    link: `rolly-vortex`,
+    imgsrc: `rolly-vortex.jpg`,
+    name: `Rolly Vortex`,
+    developer: `Voodoo`,
+    desc: `Roll quickly, be alert, manage your way through the obstacles, score high and challenge friends`,
+    controls: [`Mouse/Arrow Keys`]
+  },
+  {
     filter: [`misc`, `fight`],
     link: `sans-fight`,
     imgsrc: `sans-fight.jpg`,
