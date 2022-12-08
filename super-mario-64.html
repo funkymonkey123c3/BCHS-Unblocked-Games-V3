@@ -23,43 +23,13 @@
 		<div class="main-content">
 			<section class="content">
 				<div class="content-container">
-					<canvas class="emscripten" id="canvas" style="width: 900px; height: 506.25px"></canvas>
-					<script type='text/javascript'>
-						var Module = {
-						preRun: [],
-						postRun: [],
-						print: (function() {
-							return function(text) {
-							if (arguments.length > 1) text = Array.prototype.slice.call(arguments).join(' ');
-							console.log(text);
-							};
-						})(),
-						printErr: function(text) {
-							if (arguments.length > 1)
-							text = Array.prototype.slice.call(arguments).join(' ');
-							console.error(text);
-						},
-						canvas: (function() {
-							var canvas = document.getElementById('canvas');
-							canvas.width = window.innerWidth; 
-							canvas.height = window.innerHeight;
-							canvas.addEventListener("webglcontextlost", function(e) {
-							alert('WebGL context lost. You will need to reload the page.');
-							e.preventDefault();
-							}, false);
-							return canvas;
-						})(),
-						setStatus: function(text) {
-						}
-						};
-					</script>
-					<script async type="text/javascript" src="games/sm64/sm64.us.f3dex2e.js"></script>
+					<iframe src="https://sm64.mrhacker370.repl.co/" scrolling="no"></iframe>
 					<div class="bar">
 						<div class="bar-left">
 							<h1 id="content-title">Game Title</h1>
 							<h3 id="content-creator">by Game Creator</h3>
 						</div>
-						<button onclick="cFullscreen()">
+						<button onclick="iFullscreen()">
 							<i class="fas fa-expand fa-2x"></i>
 						</button>
 					</div>

@@ -23,7 +23,7 @@ const gamesArr = [
     imgsrc: `tj.jpg`,
     name: `Tube Jumpers`,
     developer: `Pat Eichler`,
-    desc: `Tube Jumpers is local multiplayer game with your friends packed with action. The last one to stay on the tubes wins. Watch out for miscellaneous objects while watching your back from other players.`,
+    desc: `Tube Jumpers is a local multiplayer game with your friends packed with action. The last one to stay on the tubes wins. Watch out for miscellaneous objects while watching your back from other players.`,
     controls: [`W/I: Jump`]
   },
   {
@@ -128,7 +128,7 @@ const gamesArr = [
     filter: [`puzzle`, `misc`],
     link: `wordle-unlimited`,
     imgsrc: `wordle.png`,
-    name: `Wordle Unlimited`,
+    name: `Wordle +`,
     developer: `Josh Wardle`,
     desc: `Wordle is a web-based word game developed by Welsh-born software engineer Josh Wardle. Players have six attempts to guess a five-letter word; feedback is given for each guess, in the form of colored tiles, indicating when letters match or occupy the correct position. This tweak has no limit to how many games you can play!`,
     controls: [`Type to interact`]
@@ -170,23 +170,6 @@ const gamesArr = [
     
     Note: The first key is the one you press, the second key is what it does in game (Ex: in game, it will say to press A. You would press "X" to achieve that.`,
     controls: [`Arrow Keys: Control movement`, `Enter: Start`, `X: A`, `C: B`, `Q: L`, `Space: Z`, `C-Stick: WASD`]
-  },
-  {
-    filter: [`misc`],
-    link: `adofai`,
-    imgsrc: `adofai.png`,
-    name: `A Dance of Fire and Ice`,
-    developer: `7th Beat Games`,
-    desc: `A Dance of Fire and Ice is a strict rhythm game.
-  
-    Keep your focus as you guide two orbiting planets along a winding path without breaking their perfect equilibrium.
-    
-    Press on every beat of the music to move in a line.
-    
-    Every pattern has its own rhythm to it. It can get difficult. This game is purely based on rhythm, so use your ears more than your sight.
-
-    Check out the full game on Steam https://store.steampowered.com/app/977950/A_Dance_of_Fire_and_Ice/`,
-    controls: [`Use any keys to play`]
   },
   {
     filter: [`drive`],
@@ -266,21 +249,6 @@ const gamesArr = [
     controls: [`Click to play`]
   },
   {
-    filter: [`plat`, `emu`],
-    link: `smasmw`,
-    imgsrc: `smasmw.png`,
-    name: `Super Mario Allstars + Super Mario World`,
-    developer: `Nintendo`,
-    desc: `Super Mario All-Stars + Super Mario World is a compilation title for the Super Nintendo Entertainment System. It includes all the games from Super Mario All-Stars, as well as Super Mario World. It was released in December 1994 in North America, 1995 in Europe, and was never released in Japan.
-
-    - You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
-
-    - You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right
-
-    - If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.`,
-    controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
-  },
-  {
     filter: [`puzzle`, `misc`],
     link: `align-4`,
     imgsrc: `align4.jpg`,
@@ -298,33 +266,6 @@ const gamesArr = [
     developer: `Bandai Namco, remade by Shaun Williams`,
     desc: `Pac-Man is a Japanese video game franchise published, developed and owned by Bandai Namco Entertainment.`,
     controls: [`Arrow Keys: Control movement`]
-  },
-  {
-    filter: [`plat`],
-    link: `economical`,
-    imgsrc: `economical.png`,
-    name: `Economical`,
-    developer: `baba_s`,
-    desc: `2D puzzle action game where saving coins is important! Aiming for a goal using items. Make a way with blocks. Break a block with a hammer. But you need coins.`,
-    controls: [`A/D: Control movement`, `W/Space: Jump`, `Mouse Wheel: Select items`]
-  },
-  {
-    filter: [`plat`],
-    link: `economical-2`,
-    imgsrc: `economical2.png`,
-    name: `Economical 2`,
-    developer: `baba_s`,
-    desc: `Version 2 of the 2D puzzle action game where saving coins is important! Aiming for a goal using items. Make a way with blocks. Break a block with a hammer. But you need coins.`,
-    controls: [`A/D: Control movement`, `W/Space: Jump`, `Mouse Wheel: Select items`]
-  },
-  {
-    filter: [`plat`],
-    link: `color-on`,
-    imgsrc: `coloron.png`,
-    name: `COLORON`,
-    developer: `Greg Hovanesyan`,
-    desc: `COLORON is a fun and well-designed platformer. The goal is to match the color of the tower to the bouncing ball. Keep it going for as long as you can, just don't get mad.`,
-    controls: [`Click to play`]
   },
   {
     filter: [`plat`, `flash`],
@@ -351,17 +292,6 @@ const gamesArr = [
     desc: `Friday Night Funkin' is an open-source donationware rhythm game first released in 2020 for a game jam. 
     The game was developed by a team of four Newgrounds users, Cameron "Ninjamuffin99" Taylor, David "PhantomArcade" Brown, Isaac "Kawai Sprite" Garcia, and evilsk8r.`,
     controls: [`WASD/Arrow Keys: Interact`, `+/-: Change volume`]
-  },
-  {
-    filter: [`plat`],
-    link: `geometry-dash-remastered`,
-    imgsrc: `gdr.jpg`,
-    name: `Geometry Dash Remastered`,
-    developer: `Arabask`,
-    desc: `Welcome all to Geometry Dash Remastered, and, well, you already know the game. But this is more, this is 5 new levels you can't find anywhere else, this is ... REMASTERED (I'm totally serious).
-    
-    Warning: This game may be resource intensive`,
-    controls: [`W/Space/Click/↑: Jump`, `Esc/P: Pause`]
   },
   {
     filter: [`misc`],
@@ -404,32 +334,6 @@ const gamesArr = [
     controls: [`Click to play`]
   },
   {
-    filter: [`plat`, `flash`],
-    link: `super-mario-63`,
-    imgsrc: `sm63.png`,
-    name: `Super Mario 63`,
-    developer: `Runouw`,
-    desc: `Super Mario 63 is a fan-game inspired by Nintendo's Super Mario 64. Many levels and features are based upon it and other of Nintendo's games, but a variety of them are completely original. 
-    Among them include a detailed storyline, ability to play as Luigi, a highly customizable Level Designer with sharable codes, three different FLUDD Power-ups, four different power-caps, and 64 Shine Sprites & 64 Star Coins to collect.`,
-    controls: [`Arrow Keys: Control movement`, `Z: Interact/stomp`, `X: Twirl`, `C: Launch from cannons`]
-  },
-  {
-    filter: [`emu`,`drive`],
-    link: `mariokart64`,
-    imgsrc: `mariokart64.png`,
-    name: `Mario Kart 64`,
-    developer: `Nintendo`,
-    desc: `Mario Kart 64 is a 1996 kart racing video game developed and published by Nintendo for the Nintendo 64. 
-    The game is the second entry in the Mario Kart series and is the successor to Super Mario Kart for the Super Nintendo Entertainment System.
-    
-		- You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
-
-    - You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right
-
-    - If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.`,
-    controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
-  },
-  {
     filter: [`plat`, `mp`],
     link: `fbwg1`,
     imgsrc: `fbwg1.jpg`,
@@ -437,175 +341,6 @@ const gamesArr = [
     developer: `Oslo Albet`,
     desc: `Fireboy and Watergirl 1 is the first cooperative platformer game in the Fireboy and Watergirl series. In this adventure, you explore 32 levels of the Forest Temple, controlling both the Fireboy and Watergirl characters through various puzzles.`,
     controls: [`WASD/Arrow Keys: Control movement`]
-  },
-  {
-    filter: [`plat`, `emu`],
-    link: `pokemon-red`,
-    imgsrc: `pokemon-red.jpg`,
-    name: `Pokemon Red`,
-    developer: `Nintendo and Game Freak`,
-    desc: `Pokémon Red and Pokémon Blue introduce legions of gamers to the world of Kanto, where the likes of Charmander, Pikachu, and Mewtwo were first discovered. Through exciting exploration, battles, and trades, Trainers are able to access 150 Pokémon. You begin your journey in Pallet Town as a young boy.
-
-    - You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
-
-    - You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right
-
-    - If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.`,
-    controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
-  },
-  {
-    filter: [`plat`, `emu`],
-    link: `pokemon-blue`,
-    imgsrc: `pokemon-blue.jpg`,
-    name: `Pokemon Blue`,
-    developer: `Nintendo and Game Freak`,
-    desc: `Pokémon Red and Pokémon Blue introduce legions of gamers to the world of Kanto, where the likes of Charmander, Pikachu, and Mewtwo were first discovered. Through exciting exploration, battles, and trades, Trainers are able to access 150 Pokémon. You begin your journey in Pallet Town as a young boy.
-
-    - You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
-
-    - You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right
-
-    - If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.`,
-    controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
-  },
-  {
-    filter: [`plat`, `emu`],
-    link: `pokemon-firered`,
-    imgsrc: `pokemon-firered.jpg`,
-    name: `Pokemon Fire Red`,
-    developer: `Nintendo and Game Freak`,
-    desc: `Pokémon FireRed Version and Pokémon LeafGreen Version are 2004 remakes of the 1996 Game Boy role-playing video games Pokémon Red and Blue.
-
-    - You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
-
-    - You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right
-
-    - If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.`,
-    controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
-  },
-  {
-    filter: [`plat`, `emu`],
-    link: `pokemon-leafgreen`,
-    imgsrc: `pokemon-leafgreen.jpg`,
-    name: `Pokemon Leaf Green`,
-    developer: `Nintendo and Game Freak`,
-    desc: `Pokémon FireRed Version and Pokémon LeafGreen Version are 2004 remakes of the 1996 Game Boy role-playing video games Pokémon Red and Blue.
-
-    - You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
-
-    - You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right
-
-    - If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.`,
-    controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
-  },
-  {
-    filter: [`plat`, `emu`],
-    link: `pokemon-ruby`,
-    imgsrc: `pokemon-ruby.jpg`,
-    name: `Pokemon Ruby`,
-    developer: `Nintendo and Game Freak`,
-    desc: `Immerse yourself in the beautiful region of Hoenn, a place of masterful heroes and mysterious teams, of friendship and battles. As the new kid in town, you set off your journey as a Pokémon Trainer. Who knows what wonders and dangers await you? Now it's time to grab your gear and head out on your own...
-
-    - You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
-
-    - You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right
-
-    - If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.`,
-    controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
-  },
-  {
-    filter: [`plat`, `emu`],
-    link: `pokemon-sapphire`,
-    imgsrc: `pokemon-sapphire.jpg`,
-    name: `Pokemon Sapphire`,
-    developer: `Nintendo and Game Freak`,
-    desc: `Immerse yourself in the beautiful region of Hoenn, a place of masterful heroes and mysterious teams, of friendship and battles. As the new kid in town, you set off your journey as a Pokémon Trainer. Who knows what wonders and dangers await you? Now it's time to grab your gear and head out on your own...
-
-    - You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
-
-    - You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right
-
-    - If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.`,
-    controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
-  },
-  {
-    filter: [`plat`, `emu`],
-    link: `pokemon-emerald`,
-    imgsrc: `pokemon-emerald.jpg`,
-    name: `Pokemon Emerald`,
-    developer: `Nintendo and Game Freak`,
-    desc: `Pokémon Emerald Version takes Trainers back to the land of Hoenn for an expanded adventure, this time against both Team Magma and Team Aqua! Pokémon Emerald also features an even more exciting storyline featuring the Legendary Rayquaza.
-
-    - You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
-
-    - You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right
-
-    - If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.`,
-    controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
-  },
-  {
-    filter: [`plat`, `emu`],
-    link: `pokemon-gold`,
-    imgsrc: `pokemon-gold.jpg`,
-    name: `Pokemon Gold`,
-    developer: `Nintendo and Game Freak`,
-    desc: `Enter a whole new world, with new Pokémon to capture, train and battle! Meet Professor Elm and get the all-new Poké Gear, including map, radio, cell phone and clock. Set the clock then watch as day turns to night and events take place in real time— and be sure to keep an eye out for Pokémon that come out only at night!
-
-    - You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
-
-    - You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right
-
-    - If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.`,
-    controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
-  },
-  {
-    filter: [`plat`, `emu`],
-    link: `pokemon-silver`,
-    imgsrc: `pokemon-silver.jpg`,
-    name: `Pokemon Silver`,
-    developer: `Nintendo and Game Freak`,
-    desc: `Enter a whole new world, with new Pokémon to capture, train and battle! Meet Professor Elm and get the all-new Poké Gear, including map, radio, cell phone and clock. Set the clock then watch as day turns to night and events take place in real time— and be sure to keep an eye out for Pokémon that come out only at night!
-
-    - You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
-
-    - You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right
-
-    - If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.`,
-    controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
-  },
-  {
-    filter: [`plat`, `emu`],
-    link: `pokemon-crystal`,
-    imgsrc: `pokemon-crystal.jpg`,
-    name: `Pokemon Crystal`,
-    developer: `Nintendo and Game Freak`,
-    desc: `Originally released for the Game Boy™ Color system in 2000, the Pokémon™ Crystal game added several new features to the Pokémon franchise. 
-    For the first time, players could choose a female or male character, Pokémon battles featured animation, and more. 
-    And now, this Virtual Console release invites you to explore the Johto region again—or for the first time.
-
-    - You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
-
-    - You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right
-
-    - If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.`,
-    controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
-  },
-  {
-    filter: [`plat`, `emu`],
-    link: `smb`,
-    imgsrc: `smb.jpg`,
-    name: `Super Mario Bros`,
-    developer: `Nintendo`,
-    desc: `Mario Bros. is a 1983 platform game developed and published for arcades by Nintendo. 
-    It was designed by Shigeru Miyamoto and Gunpei Yokoi, Nintendo's chief engineer. 
-    Italian plumber Mario and his twin brother Luigi exterminate creatures emerging from the sewers by knocking them upside-down and kicking them away.
-    
-    - You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
-
-    - You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right
-
-    - If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.`,
-    controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
   },
   {
     filter: [`plat`],
@@ -668,80 +403,6 @@ const gamesArr = [
     developer: `Jcw87`,
     desc: `Undertale Sans Fight Clone; "do you wanna have a bad time? 'cause if you visit this page... you are REALLY not going to like what happens next."`,
     controls: [`WASD/Arrow Keys: Control movement`, `Z: Proceed`]
-  },
-  {
-    filter: [`plat`, `flash`],
-    link: `unfairmario`,
-    imgsrc: `unfairmario.jpg`,
-    name: `Unfair Mario`,
-    developer: `Gameitnow`,
-    desc: `It is Super Mario, again. Our beloved little fellow is inviting you to travel alongside him throughout the Unfair Mario game. You will find yourself in the classic arcade game, but this time, with a little twist. 
-    Some traps will be trickier, and some obstacles harder to overcome. But you will survive it, will you not? `,
-    controls: [`Arrow Keys: Control movement`]
-  },
-  {
-    filter: [`puzzle`, `misc`],
-    link: `thereisnogame`,
-    imgsrc: `thereisnogame.jpg`,
-    name: `There Is No Game`,
-    developer: `KaMiZoTo`,
-    desc: `There is no game. There is nothing to do.
-
-    Do not click or tap anywhere. Really. DO NOT CLICK OR TAP ANYWHERE.
-    
-    Do not laugh as there is nothing to laugh about.`,
-    controls: [`Mouse: Interact`]
-  },
-  {
-    filter: [`sport`, `mp`, `emu`],
-    link: `nba-jam`,
-    imgsrc: `nbajam.png`,
-    name: `NBA Jam`,
-    developer: `Iguana Entertainment`,
-    desc: `NBA Jam is a classic arcade basketball game developed and published back in 1993 and is the first entry to the NBA Jam series. 
-    The game features 2 on 2 basketball match off and is one of the first sports games to feature real and digitized NBA-licensed teams and players!
-
-    - You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
-
-    - You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right
-
-    - If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.`,
-    controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
-  },
-  {
-    filter: [`sport`, `mp`, `emu`],
-    link: `nba-jam-tournament-edition`,
-    imgsrc: `nbajamtournament.png`,
-    name: `NBA Jam Tournament Edition`,
-    developer: `Iguana Entertainment`,
-    desc: `NBA Jam Tournament Edition is the second game in the basketball arcade series created by Midway. 
-
-    The game features two-on-two fast paced matches with real life NBA players from the 1993-1994 seasons. 
-
-    The game has over 120 NBA athletes plus more than 40 hidden characters to unlock.
-
-    - You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
-
-    - You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right
-
-    - If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.`,
-    controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
-  },
-  {
-    filter: [`sport`, `mp`, `emu`],
-    link: `nba-jam-2k20`,
-    imgsrc: `nbajam2k20.png`,
-    name: `NBA Jam 2K20`,
-    developer: `Iguana Entertainment`,
-    desc: `NBA Jam 2K20: Tournament Edition is a ROM hack of the game NBA Jam: Tournament Edition for the Super Nintendo Entertainment System (SNES). 
-				This hack did not change the core aspects, as well as most game mechanics, of the game, and instead worked on updating its player and team roster to match the 2019-2020 NBA season.
-
-		- You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
-
-    - You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right
-
-    - If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.`,
-    controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
   },
   {
     filter: [`plat`, `puzzle`, `flash`],
@@ -814,21 +475,6 @@ const gamesArr = [
     controls: [`Arrow Keys: Control movement`, `A: Shoot`, `S: Jump`]
   },
   {
-    filter: [`plat`, `emu`],
-    link: `dkc`,
-    imgsrc: `dkc.jpg`,
-    name: `Donkey Kong Country`,
-    developer: `Rare, Nintendo`,
-    desc: `Donkey Kong Country is a side-scrolling platform game in which the player must complete 40 levels to recover the Kongs' banana hoard, which has been stolen by the crocodilian Kremlings.
-
-    - You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
-
-    - You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right
-
-    - If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.`,
-    controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
-  },
-  {
     filter: [`sport`],
     link: `basketball-stars`,
     imgsrc: `bbstars.png`,
@@ -839,31 +485,6 @@ const gamesArr = [
     controls: [`WASD/Arrow Keys: Control movement`, `B/L: Shoot/Steal`, `S/↓: Pump fake/block`, `Double-Tap A/D/←/→: Sprint`, `K/V: Super shot`]
   },
   {
-    filter: [`sport`],
-    link: `volley-gosh`,
-    imgsrc: `volleygosh.png`,
-    name: `Volley Gosh`,
-    developer: `Gerard Delaney and Scott Bartlett`,
-    desc: `Volley Gosh is a bright and happy ball game where you must try keep your "volley gosh ball" in the air for as long as possible. 
-    Watch out for the increasing challenge and surprises that abound on the joyful beach while you get your next high score!`,
-    controls: [`Arrow Keys: Control movement`, `Space: Hit the ball`, `Z: Dash`]
-  },
-  {
-    filter: [`sport`, `fight`, `emu`],
-    link: `streetfighter2`,
-    imgsrc: `sf2.jpg`,
-    name: `Street Fighter 2`,
-    developer: `Capcom`,
-    desc: `Street Fighter II: The World Warrior is a competitive fighting game originally released for the arcades in 1991. It is the second entry in the Street Fighter series and the arcade sequel to the original Street Fighter released in 1987. It was Capcom's fourteenth title that ran on the CP System arcade hardware. Street Fighter II improved upon the many concepts introduced in the first game, including the use of command-based special moves and a six-button configuration, while offering players a selection of multiple playable characters, each with their own unique fighting style.
-
-    - You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
-
-    - You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right
-
-    - If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.`,
-    controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
-  },
-  {
     filter: [`misc`, `flash`],
     link: `btd`,
     imgsrc: `btd.jpg`,
@@ -871,63 +492,6 @@ const gamesArr = [
     developer: `Ninja Kiwi`,
     desc: `Bloons Tower Defense. Stop any bloons from escaping the maze by building and upgrading bloons popping towers. Towers can throw darts, tacks, bombs, and ice.`,
     controls: [`Click: Interact`]
-  },
-  {
-    filter: [`plat`, `emu`],
-    link: `sonic-1`,
-    imgsrc: `sonic1.jpg`,
-    name: `Sonic 1`,
-    developer: `Sega, Sonic Team`,
-    desc: `Sonic the Hedgehog is a Japanese video game series and media franchise created and owned by Sega. The franchise follows Sonic, an anthropomorphic blue hedgehog who battles the evil Doctor Eggman, a mad scientist.
-
-    - You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
-
-    - You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right
-
-    - If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.`,
-    controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
-  },
-  {
-    filter: [`plat`, `emu`],
-    link: `sonic-2`,
-    imgsrc: `sonic2.jpg`,
-    name: `Sonic 2`,
-    developer: `Sega, Sonic Team`,
-    desc: `Sonic the Hedgehog 2 is a 1992 platform game developed and published by Sega for the Sega Genesis. It follows Sonic as he attempts to stop Doctor Robotnik from stealing the Chaos Emeralds to power his space station, the Death Egg.
-
-    - You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
-
-    - You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right
-
-    - If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.`,
-    controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
-  },
-  {
-    filter: [`emu`,`plat`],
-    link: `sonic-3-knuckles`,
-    imgsrc: `sonic3-knuckles.png`,
-    name: `Sonic 3 & Knuckles`,
-    developer: `Sega`,
-    desc: `Dr. Eggman’s (AKA Dr. Robotnik’s) Death Egg was once again blasted by Sonic, crash-landing on the peak of a volcano on the Floating Island. 
-    Dr. Eggman is still at large, and Sonic can’t allow him to get his hands on the Master Emerald and repair the Death Egg.
-    
-		- You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
-
-    - You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right
-
-    - If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.`,
-    controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
-  },
-  {
-    filter: [`plat`, `misc`, `fight`],
-    link: `unfairdyne`,
-    imgsrc: `unfairdyne.jpg`,
-    name: `Unfair Dyne`,
-    developer: `Joe Zeng`,
-    desc: `Break the word in half and add "UN" to each part. Undyne fight, but harder. 
-    
-    - If pressing Z doesn't work, try clicking near the edges and then pressing Z to play.`,
-    controls: [`WASD/Arrow Keys: Control movement`, `Z: Proceed`]
   },
   {
     filter: [`misc`, `puzzle`],
@@ -950,23 +514,6 @@ const gamesArr = [
     controls: [`Arrow Keys/WASD: Control movement`, `O/G: Jump`, `P/F: Attack`, `Backspace: Pause`]
   },
   {
-    filter: [`plat`, `emu`],
-    link: `a-link-to-the-past`,
-    imgsrc: `alinktothepast.jpg`,
-    name: `Legend of Zelda: A Link to the Past`,
-    developer: `Nintendo`,
-    desc: `Return to an age of magic and heroes! When an evil magician named Agahnim begins kidnapping young maidens in Hyrule in a quest to break the imprisoning seal on Ganon, a young boy named Link is called upon to stop him. 
-    Link must venture into twisting mazes, dungeons, palaces and shadowy forests as he searches for the maidens and Princess Zelda. Traversing both Light and Dark Worlds, he must navigate eight dark dungeons, fighting evil enemies and huge bosses. 
-    Help our hero prevent Ganon and Agahnim from shattering Hyrule forever. Whether you are a young knight, a heroine-in-training or a seasoned warrior, The Legend of Zelda: A Link to the Past will delight!
-
-    - You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
-
-    - You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right
-
-    - If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.`,
-    controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
-  },
-  {
     filter: [`plat`, `flash`],
     link: `flood-runner-2`,
     imgsrc: `fr2.jpg`,
@@ -987,37 +534,6 @@ const gamesArr = [
     controls: [`Click/Space: Place blocks`]
   },
   {
-    filter: [`emu`,`plat`, `shoot`],
-    link: `megaman`,
-    imgsrc: `megaman.png`,
-    name: `Mega Man`,
-    developer: `Capcom`,
-    desc: `Mega Man, known as Rockman in Japan, is a Japanese science fiction video game franchise created by Capcom, starring a series of robot characters each known by the moniker "Mega Man".
-    
-		- You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
-
-    - You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right
-
-    - If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.`,
-    controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
-  },
-  {
-    filter: [`emu`,`plat`, `shoot`],
-    link: `megaman-2`,
-    imgsrc: `megaman2.jpg`,
-    name: `Mega Man 2`,
-    developer: `Capcom`,
-    desc: `Mega Man 2 is an action game developed and published by Capcom for the Nintendo Entertainment System.
-    Mega Man 2 continues Mega Man's battle against the evil Dr. Wily and his rogue robots.
-    
-		- You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
-
-    - You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right
-
-    - If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.`,
-    controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
-  },
-  {
     filter: [`misc`, `puzzle`],
     link: `linerider`,
     imgsrc: `linerider.jpg`,
@@ -1025,18 +541,6 @@ const gamesArr = [
     developer: `Emergent Studios`,
     desc: `Line Rider is a classic sandbox game where you draw a track for the sledder to ride on. Simple concept, endless possibilities, oddly addicting!`,
     controls: [`Click and hold to draw`]
-  },
-  {
-    filter: [`misc`],
-    link: `monkeytype-lite`,
-    imgsrc: `monkeytype-lite.png`,
-    name: `Monkeytype Lite`,
-    developer: `Miodec`,
-    desc: `A minimalistic, customisable typing website. Test yourself in various modes, track your progress and improve your typing speed. 
-    Credits to Miodec for making Monkeytype and for VocalNutria for providing a codebase to start from.
-    Remade by r0cket to replicate some core features of Monkeytype.
-    For the best experience: https://monkeytype.com/`,
-    controls: [`Type to interact`]
   },
   {
     filter: [`plat`],
@@ -1048,62 +552,6 @@ const gamesArr = [
     Every time you play the cave's layout will be different. Use your wits, your reflexes, and the items available to you to survive and go ever deeper! 
     Perhaps at the end you may find what you're looking for...`,
     controls: [`←/→: Control movement`, `↑: Look up/climb`, `↓: Look down/Crouch/Climb/Run`, `X: Action`, `Z: Jump`, `C: Cycle Item`, `Shift: Run`]
-  },
-  {
-    filter: [`emu`,`plat`, `shoot`],
-    link: `metroid`,
-    imgsrc: `metroid.jpg`,
-    name: `Metroid`,
-    developer: `Nintendo`,
-    desc: `Metroid is a Japanese action-adventure game franchise created by Nintendo. 
-    The player controls bounty hunter Samus Aran, who protects the galaxy from Space Pirates and other malevolent forces and their attempts to harness the power of the parasitic Metroid creatures.
-    
-		- You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
-
-    - You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right
-
-    - If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.`,
-    controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
-  },
-  {
-    filter: [`emu`,`plat`, `shoot`],
-    link: `metroid-2`,
-    imgsrc: `metroid2.jpg`,
-    name: `Metroid II`,
-    developer: `Nintendo`,
-    desc: `Metroid II: Return of Samus is an action-adventure game developed and published by Nintendo for the Game Boy.
-    
-		- You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
-
-    - You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right
-
-    - If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.`,
-    controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
-  },
-  {
-    filter: [`mp`, `fight`, `emu`],
-    link: `smash-remix`,
-    imgsrc: `smash-remix.jpg`,
-    name: `Smash Remix`,
-    developer: `The_Smashfather`,
-    desc: `Immerse yourself in a world of mind-blowing fights in Smash Remix and get ready to test your fighting skills! 
-    Enjoy this fun mod inspired by the classic Super Smash Bros. as you live a thrilling experience surrounded by the best and bravest characters from classic video games.
-    
-		- You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser".
-
-    - You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right
-
-    - If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.`,
-    controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
-  },
-  {
-    filter: [`misc`],
-    link: `alphabet-speed-test`,
-    imgsrc: `alphabettest.png`,
-    name: `Alphabet Speed Test`,
-    developer: `Sindre`,
-    desc: `Alphabet Speed Test is a fun little game to check how quickly you can type the alphabet on your keyboard!`,
-    controls: [`Type to interact`]
   },
   {
     filter: [`drive`, `misc`],
@@ -1188,15 +636,6 @@ const gamesArr = [
     controls: [`Enter: Start/Pause`, `Arrow Keys: Control movement`, `Hover and click the gamepad icon to view/change controls.`]
   },
   {
-    filter: [`plat`, `flash`],
-    link: `ultimate-flash-sonic`,
-    imgsrc: `ufsonic.png`,
-    name: `Ultimate Flash Sonic`,
-    developer: `Dennis-Gid`,
-    desc: `Ultimate Flash Sonic is a sonic fangame made in Adobe Flash. It was created by Dennis-Gid and it was uploaded to Newgrounds on Febuary 21, 2004.`,
-    controls: [`WASD: Control movement`, `Arrow Keys: Control shooting`]
-  },
-  {
     filter: [`plat`],
     link: `jimothy-piggerton`,
     imgsrc: `jimpig.png`,
@@ -1226,16 +665,6 @@ const gamesArr = [
     Doing so will bring you back to the start so you can try again. 
     The difficulty goes up after every stage, so keep your focus and see how far you can get in the World's Hardest Game 2.`,
     controls: [`WASD/Arrow Keys: Control movement`]
-  },
-  {
-    filter: [`flash`, `misc`],
-    link: `douchebag-workout`,
-    imgsrc: `dw.jpg`,
-    name: `Douchebag Workout`,
-    developer: `Pyrozen`,
-    desc: `Douchebag Workout is a button-mashing skill game where you level up by working out. You start as a skinny guy insecure about his body image. 
-    The solution - get unnaturally large muscles and become a douchebag. Work all of your key muscle areas, buy supplements, and become the ripped chad you always imagined.`,
-    controls: [`Click: Interact`]
   },
   {
     filter: [`flash`, `misc`],
