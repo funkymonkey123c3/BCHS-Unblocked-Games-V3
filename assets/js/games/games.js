@@ -334,13 +334,31 @@ const gamesArr = [
     controls: [`Click to play`]
   },
   {
-    filter: [`fight`, `sport`],
+    filter: [`mp`, `sport`],
     link: `basket-random`,
     imgsrc: `basket-random.jpg`,
     name: `Basket Random`,
-    developer: `RHM Interactive.`,
+    developer: `RHM Interactive`,
     desc: `In Basket Random game, try to score a basket by using only one key with different variations from each other! Changing fields, changing players and changing balls do not surprise you! You can be the best of them all. You can play Basket Random game either against CPU or against a friend in 2 player gaming mode!.`,
     controls: [`W/UP ARROW`]
+  },
+  {
+    filter: [`puzzle`],
+    link: `bad-ice-cream`,
+    imgsrc: `bad-ice-cream.jpg`,
+    name: `Bad Ice Cream`,
+    developer: `Nitrome Ltd`,
+    desc: `Bad Ice Cream is a fun puzzle game where you play as an ice cream in a maze of fruit and bad guys. The challenge is to get all the fruit before you get caught by an enemy! Thankfully you can shoot walls into existence to help you trap enemies, or hide from them.`,
+    controls: [`WASD/ARROW KEYS`]
+  },
+  {
+    filter: [`misc`],
+    link: `hextris`,
+    imgsrc: `hextris.png`,
+    name: `Hextris`,
+    developer: `David King`,
+    desc: `An addictive puzzle game inspired by Tetris.`,
+    controls: [`WASD/ARROW KEYS`]
   },
   {
     filter: [`plat`, `mp`],
@@ -412,6 +430,15 @@ const gamesArr = [
     desc: `Ducklife 4 is here, so get ready to race your ducks! In the near future, genetically engineered ducks have been banned from the races. It's up to you to make an elite duck who is capable of winning any race!
     Go through vigorous training sequences to build up speed and agility! Do you have the skills to win against all the other ducks? Good luck!`,
     controls: [`Arrow Keys: Control movement`]
+  },
+  {
+    filter: [`mp`, `puzzle`],
+    link: `among-us`,
+    imgsrc: `among-us.jpg`,
+    name: `Among Us (Fan Made)`,
+    developer: `1tim`,
+    desc: `Among Us is a multiplayer game where 10 players get dropped into an alien spaceship, sky headquarters or planet base, where each player is designated with a private role of either a “crewmate” and an “impostor.” This is an online multiplayer social deduction game, and a player can either be a crewmate or an imposter`,
+    controls: [`Arrow Keys/WASD/Mouse`]
   },
   {
     filter: [`misc`, `fight`],
