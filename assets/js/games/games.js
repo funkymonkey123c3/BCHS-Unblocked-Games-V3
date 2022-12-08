@@ -148,6 +148,15 @@ const gamesArr = [
     controls: [`WASD/Arrow Keys: Move tiles`, `R: Restart`]
   },
   {
+    filter: [`misc`],
+    link: `doge-miner`,
+    imgsrc: `doge-miner.png`,
+    name: `Doge Miner`,
+    developer: `Unknown`,
+    desc: `Doge Miner is an awesome incremental game featuring our favorite dog. It is an idle game inspired by Cookie Clicker and uses the famous Doge meme featuring Shiba Inus. The goal of the game is to click your way to the moon.`,
+    controls: [`Mouse`]
+  },
+  {
     filter: [`emu`],
     link: `emulatorjs`,
     imgsrc: `ejs.png`,
