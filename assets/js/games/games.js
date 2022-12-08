@@ -85,12 +85,66 @@ const gamesArr = [
     controls: [`Controls can be modified ingame`]
   },
   {
+    filter: [`mp`],
+    link: `craft-mine`,
+    imgsrc: `craft-mine.png`,
+    name: `Craft Mine`,
+    developer: `Markus Alexej Persson`,
+    desc: `Craft Mine is a minecraft themed terraria clone.`,
+    controls: [`Controls can be modified ingame`]
+  },
+  {
+    filter: [`misc`],
+    link: `crossy-road`,
+    imgsrc: `crossy-road.jpg`,
+    name: `Crossy Road`,
+    developer: `Matt Hall`,
+    desc: `The objective of Crossy Road is to move a character through an endless path of static and moving obstacles as far as possible without dying.`,
+    controls: [`Arrow Keys/WASD/Mouse`]
+  },
+  {
+    filter: [`misc`],
+    link: `cut-the-rope`,
+    imgsrc: `cut-the-rope.png`,
+    name: `Cut The Rope`,
+    developer: `ZeptoLab`,
+    desc: `Cut the Rope is a charming physics-based puzzle game featuring a cute green monster named "Om Nom." Players must cut dangling ropes that hold candy so that it falls into the monster's mouth, while collecting as many bonus stars as possible.`,
+    controls: [`Mouse`]
+  },
+  {
+    filter: [`misc`],
+    link: `cut-the-rope-holiday`,
+    imgsrc: `cut-the-rope-holiday.png`,
+    name: `Cut The Rope: Holiday`,
+    developer: `ZeptoLab`,
+    desc: `Cut the Rope is a charming physics-based puzzle game featuring a cute green monster named "Om Nom." Players must cut dangling ropes that hold candy so that it falls into the monster's mouth, while collecting as many bonus stars as possible.`,
+    controls: [`Mouse`]
+  },
+  {
+    filter: [`misc`],
+    link: `cut-the-rope-time-travel`,
+    imgsrc: `cut-the-rope-time-travel.png`,
+    name: `Cut The Rope: Time Travel`,
+    developer: `ZeptoLab`,
+    desc: `Cut the Rope is a charming physics-based puzzle game featuring a cute green monster named "Om Nom." Players must cut dangling ropes that hold candy so that it falls into the monster's mouth, while collecting as many bonus stars as possible.`,
+    controls: [`Mouse`]
+  },
+  {
     filter: [`misc`, `puzzle`],
     link: `2048`,
     imgsrc: `2048.png`,
     name: `2048`,
     developer: `Gabriele Cirulli`,
     desc: `2048 is a single-player sliding block puzzle game. Use your arrow keys to move the tiles. When two tiles with the same number touch, they merge into one!`,
+    controls: [`WASD/Arrow Keys: Move tiles`, `R: Restart`]
+  },
+  {
+    filter: [`misc`, `puzzle`],
+    link: `doge-2048`,
+    imgsrc: `doge-2048.png`,
+    name: `Doge 2048`,
+    developer: `Gabriele Cirulli`,
+    desc: `Doge 2048 is a single-player sliding block puzzle game. Use your arrow keys to move the tiles. When two tiles with the same doge touch, they merge into one!`,
     controls: [`WASD/Arrow Keys: Move tiles`, `R: Restart`]
   },
   {
@@ -210,6 +264,33 @@ const gamesArr = [
     
     Pick a Huracan, LaFerrari, Pagani or Veneno and tear up the streets. Compete in multiplayer arenas with other MSC2 gamers.`,
     controls: [`WASD/Arrow Keys: Control movement`, `Shift: Nitrous`, `R: Respawn`, `T: Open map`, `C: Change camera`]
+  },
+  {
+    filter: [`drive`],
+    link: `car-simulator`,
+    imgsrc: `car-simulator.png`,
+    name: `Car Simulator`,
+    developer: `Unknown`,
+    desc: `Unknown`,
+    controls: [`WASD/Arrow Keys`]
+  },
+  {
+    filter: [`misc`],
+    link: `core-ball`,
+    imgsrc: `core-ball.png`,
+    name: `Core Ball`,
+    developer: `Tasty Pill`,
+    desc: `Core Ball is a simple tapping strategy game fun for users of for all ages. Shoot arrows at the spinning circle target but don't touch the other arrows. Use the right strategy to improve your accuracy and hit the bullseye on the circle as it twists every time. The more arrows you shoot, the harder it is to be accurate and hit the bullseye. Can you beat this impossible rotating wheel? What level can you get to? Download right now and spin the wheel to find out.`,
+    controls: [`Mouse`]
+  },
+  {
+    filter: [`drive`],
+    link: `cluster-truck`,
+    imgsrc: `cluster-truck.png`,
+    name: `Cluster Truck`,
+    developer: `Wilhelm Nylund`,
+    desc: `Clustertruck is a new kind of platformer on top of a speeding highway! Use agility and acrobatics through insane levels in a game of "the floor is lava" on top of unpredictable, speeding trucks! The game only gets harder when dangers such as swinging hammers, lasers and flamethrowers are added!`,
+    controls: [`WASD/Arrow Keys/Space`]
   },
   {
     filter: [`shoot`],
@@ -644,6 +725,15 @@ const gamesArr = [
     name: `Bloons Tower Defense`,
     developer: `Ninja Kiwi`,
     desc: `Bloons Tower Defense. Stop any bloons from escaping the maze by building and upgrading bloons popping towers. Towers can throw darts, tacks, bombs, and ice.`,
+    controls: [`Click: Interact`]
+  },
+  {
+    filter: [`misc`, `flash`],
+    link: `bloons-td-2`,
+    imgsrc: `bloons-td-2.png`,
+    name: `Bloons Tower Defense 2`,
+    developer: `Ninja Kiwi`,
+    desc: `Bloons Tower Defense 2. Stop any bloons from escaping the maze by building and upgrading bloons popping towers. Towers can throw darts, tacks, bombs, and ice.`,
     controls: [`Click: Interact`]
   },
   {
