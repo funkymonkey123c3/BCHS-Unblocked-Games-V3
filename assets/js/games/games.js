@@ -334,6 +334,15 @@ const gamesArr = [
     controls: [`Click to play`]
   },
   {
+    filter: [`fight`, `sport`],
+    link: `basket-random`,
+    imgsrc: `basket-random.jpg`,
+    name: `Basket Random`,
+    developer: `RHM Interactive.`,
+    desc: `In Basket Random game, try to score a basket by using only one key with different variations from each other! Changing fields, changing players and changing balls do not surprise you! You can be the best of them all. You can play Basket Random game either against CPU or against a friend in 2 player gaming mode!.`,
+    controls: [`W/UP ARROW`]
+  },
+  {
     filter: [`plat`, `mp`],
     link: `fbwg1`,
     imgsrc: `fbwg1.jpg`,
@@ -341,6 +350,15 @@ const gamesArr = [
     developer: `Oslo Albet`,
     desc: `Fireboy and Watergirl 1 is the first cooperative platformer game in the Fireboy and Watergirl series. In this adventure, you explore 32 levels of the Forest Temple, controlling both the Fireboy and Watergirl characters through various puzzles.`,
     controls: [`WASD/Arrow Keys: Control movement`]
+  },
+  {
+    filter: [`fight`, `mp`, 'shoot'],
+    link: `1v1-lol`,
+    imgsrc: `1v1-lol.png`,
+    name: `1v1.lol`,
+    developer: `Unknown`,
+    desc: `Discover 1v1, the online building simulator & third person shooting game. Battle royale, build fight, box fight, zone wars and more game modes to enjoy!`,
+    controls: [`Keyboard/Mouse/Controller`]
   },
   {
     filter: [`plat`],
