@@ -88,11 +88,13 @@ $header.innerHTML = `
 <div class="aa-nav-items">
   <span class="aa-nav-item"><a href="/" target="_top">Home</a></span>
   <span class="aa-nav-item"><a href="/games.html" target="_top">Games</a></span>
-  <span class="aa-nav-item"><a href="/faq.html" target="_top">FAQ</a></span>
+  <span class="aa-nav-item"><a href="/the-unblocker-v2.html" target="_top">The Unblocker V2</a></span>
   <span class="aa-nav-item"><a href="/changelog.html" target="_top">Changelog</a></span>
-  <span class="aa-nav-item"><a href="/settings.html" target="_top">Settings</a></span>
   <span class="aa-nav-item"><a href="/request-games.html" target="_top">Request Games</a></span>
   <span class="aa-nav-item"><a href="https://github.com/tw31120071857/BCHS-Unblocked-Games-V3" target="_top">Github</a></span>
+  <span class="aa-nav-item"><a href="/faq.html" target="_top">FAQ</a></span>
+  <span class="aa-nav-item"><a href="/report-a-problem.html" target="_top">Report a Problem</a></span>
+  <span class="aa-nav-item"><a href="/settings.html" target="_top">Settings</a></span>
   <span class="aa-nav-item"><div class="users-online"><i class="fas fa-users"></i> <span id="user-count"></span></div></span>
 </div>
 </nav>
@@ -158,6 +160,7 @@ $footer.innerHTML = `<div class="footer__container">
                 <a class="footer-content__nav-link" href="/games.html" target="_top">Games</a>
                 <a class="footer-content__nav-link" href="/faq.html" target="_top">FAQ</a>
                 <a class="footer-content__nav-link" href="/request-games.html" target="_top">Request Games</a>
+                <a class="footer-content__nav-link" href="/report-a-problem.html" target="_top">Report a Problem</a>
             </nav>
             <nav class="footer-content__nav">
                 <a class="footer-content__nav-link" href="https://github.com/tw31120071857/BCHS-Unblocked-Games-V3" target="_top">Github</a>
