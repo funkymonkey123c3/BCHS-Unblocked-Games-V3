@@ -415,6 +415,24 @@ const gamesArr = [
     controls: [`WASD/ARROW KEYS`]
   },
   {
+    filter: [`flash`,'misc'],
+    link: `big-red-button`,
+    imgsrc: `big-red-button.png`,
+    name: `Big Red Button`,
+    developer: `Big Red Button Entertainment`,
+    desc: `Big Red Button is the game of mutually assured destruction. Each player leads a nation armed with an apocalyptic arsenal, a hunger for domination, and a finger on the button. The doomsday clock is set to midnight: only one can win, but everyone can lose`,
+    controls: [`Mouse`]
+  },
+  {
+    filter: [`puzzle`],
+    link: `bad-ice-cream-3`,
+    imgsrc: `bad-ice-cream-3.png`,
+    name: `Bad Ice Cream 3`,
+    developer: `Nitrome Ltd`,
+    desc: `Bad Ice Cream 3 is a fun puzzle game where you play as an ice cream in a maze of fruit and bad guys. The challenge is to get all the fruit before you get caught by an enemy! Thankfully you can shoot walls into existence to help you trap enemies, or hide from them.`,
+    controls: [`WASD/ARROW KEYS`]
+  },
+  {
     filter: [`misc`],
     link: `hextris`,
     imgsrc: `hextris.png`,
