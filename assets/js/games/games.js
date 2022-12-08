@@ -334,7 +334,7 @@ const gamesArr = [
     controls: [`Click to play`]
   },
   {
-    filter: [`mp`, `sport`],
+    filter: [`mp`, `sport`,'fight'],
     link: `basket-random`,
     imgsrc: `basket-random.jpg`,
     name: `Basket Random`,
@@ -450,7 +450,7 @@ const gamesArr = [
     controls: [`Mouse`]
   },
   {
-    filter: [`misc`],
+    filter: [`sport`,'mp','fight'],
     link: `soccer-random`,
     imgsrc: `soccer-random.png`,
     name: `Soccer Random`,
