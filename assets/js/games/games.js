@@ -157,6 +157,15 @@ const gamesArr = [
     controls: [`Mouse`]
   },
   {
+    filter: [`misc`],
+    link: `draw-the-hill`,
+    imgsrc: `draw-the-hill.png`,
+    name: `Draw The Hill`,
+    developer: `Stelennnn`,
+    desc: `In this cool driving game, use your skills to draw a path for the car to drive through the level. Make sure to draw a steady path! If hills are too steep, you'll topple over. If you get too close to obstacles, you're stuck.`,
+    controls: [`Mouse`]
+  },
+  {
     filter: [`emu`],
     link: `emulatorjs`,
     imgsrc: `ejs.png`,
@@ -496,12 +505,39 @@ const gamesArr = [
     controls: [`Arrow Keys/Mouse`]
   },
   {
-    filter: [`puzzle`],
+    filter: [`puzzle`,'misc'],
     link: `bad-ice-cream`,
     imgsrc: `bad-ice-cream.jpg`,
     name: `Bad Ice Cream`,
     developer: `Nitrome Ltd`,
     desc: `Bad Ice Cream is a fun puzzle game where you play as an ice cream in a maze of fruit and bad guys. The challenge is to get all the fruit before you get caught by an enemy! Thankfully you can shoot walls into existence to help you trap enemies, or hide from them.`,
+    controls: [`WASD/ARROW KEYS`]
+  },
+  {
+    filter: ['misc'],
+    link: `flappy-2048`,
+    imgsrc: `flappy-2048.png`,
+    name: `Flappy 2048`,
+    developer: `Gabrielle Cirulli`,
+    desc: `Flappy 2048 is a flappy bird clone themed after the popular game 2048`,
+    controls: [`W/Up Arrow`]
+  },
+  {
+    filter: ['misc'],
+    link: `flappy-bird`,
+    imgsrc: `flappy-bird.png`,
+    name: `Flappy Bird`,
+    developer: `.Gears`,
+    desc: `Flappy Bird is an arcade-style game in which the player controls the bird Faby, which moves persistently to the right. The player is tasked with navigating Faby through pairs of pipes that have equally sized gaps placed at random heights.`,
+    controls: [`W/Up Arrow/Space`]
+  },
+  {
+    filter: [`puzzle`,'misc'],
+    link: `bad-ice-cream-2`,
+    imgsrc: `bad-ice-cream-2.png`,
+    name: `Bad Ice Cream 2`,
+    developer: `Nitrome Ltd`,
+    desc: `Bad Ice Cream 2 is a fun puzzle game where you play as an ice cream in a maze of fruit and bad guys. The challenge is to get all the fruit before you get caught by an enemy! Thankfully you can shoot walls into existence to help you trap enemies, or hide from them.`,
     controls: [`WASD/ARROW KEYS`]
   },
   {
