@@ -524,6 +524,25 @@ const gamesArr = [
   },
   {
     filter: ['misc'],
+    link: `geometry-dash`,
+    imgsrc: `geometry-dash.png`,
+    name: `Geometry Dash`,
+    developer: `Griffpatch`,
+    desc: `In Geometry Dash, players control the movement of an icon and navigate along music-based levels, while avoiding obstacles such as spikes that instantly destroy the icon on impact. Geometry Dash currently consists of 21 official levels.`,
+    controls: [`Space/Up Arrow`]
+  },
+  {
+    filter: ['misc'],
+    link: `frying-nemo`,
+    imgsrc: `frying-nemo.png`,
+    name: `Frying Nemo`,
+    developer: `Unknown`,
+    desc: `An evil flying red hand wants to fry your fishes. Try to keep em alive by constantly putting them in the “aquarium”
+    Reaching wave 10 is your goal, hope you have fun!`,
+    controls: [`Mouse`]
+  },
+  {
+    filter: ['misc'],
     link: `flappy-bird`,
     imgsrc: `flappy-bird.png`,
     name: `Flappy Bird`,
