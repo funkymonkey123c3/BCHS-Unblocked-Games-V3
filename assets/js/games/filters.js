@@ -26,6 +26,10 @@ const filters = [
         filterid: 'meme'
     },
     {
+        filter: 'Scary',
+        filterid: 'scary'
+    },
+    {
         filter: 'Clicker',
         filterid: 'clicker',
     },

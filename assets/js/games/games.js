@@ -148,6 +148,33 @@ const gamesArr = [
     controls: [`WASD/Arrow Keys: Move tiles`, `R: Restart`]
   },
   {
+    filter: [`misc`, `puzzle`],
+    link: `1`,
+    imgsrc: `1.png`,
+    name: `1`,
+    developer: `Gabriele Cirulli`,
+    desc: `1 is a clone of the popular 2048 single-player sliding block puzzle game. Use your arrow keys to move the tiles. When two tiles with the same number touch, they merge into one!`,
+    controls: [`WASD/Arrow Keys: Move tiles`, `R: Restart`]
+  },
+  {
+    filter: [`misc`, `puzzle`],
+    link: `2048-multitask`,
+    imgsrc: `2048-multitask.png`,
+    name: `2048 Multitask`,
+    developer: `Gabriele Cirulli`,
+    desc: `Join the numbers and get to the 2048 and/or 3072 tile!`,
+    controls: [`WASD/Arrow Keys: Move tiles`, `R: Restart`]
+  },
+  {
+    filter: [`misc`, `puzzle`],
+    link: `9007199254740992`,
+    imgsrc: `9007199254740992.png`,
+    name: `9007199254740992`,
+    developer: `Gabriele Cirulli`,
+    desc: `Join the numbers and get to the 9007199254740992 tile!`,
+    controls: [`WASD/Arrow Keys: Move tiles`, `R: Restart`]
+  },
+  {
     filter: [`meme`, `puzzle`],
     link: `doge-2048`,
     imgsrc: `doge-2048.png`,
@@ -173,6 +200,24 @@ const gamesArr = [
     developer: `Kodiqi`,
     desc: `Click on a brick to break it and score points. Use points to purchase new balls with different abilities and upgrade them. Balls will automatically bounce and break bricks to score more points.`,
     controls: [`Click to Play`]
+  },
+  {
+    filter: [`puzzle`],
+    link: `breaking-the-bank`,
+    imgsrc: `breaking-the-bank.png`,
+    name: `Breaking The Bank`,
+    developer: `Puffballs United`,
+    desc: `Breaking the Bank is a stickman puzzle game made by Puffballs United, just as Infiltrating The Airship and Fleeing The Complex. Find the best way to Break the Bank!`,
+    controls: [`Click to Play`]
+  },
+  {
+    filter: [`scary`],
+    link: `backrooms`,
+    imgsrc: `backrooms.jpg`,
+    name: `Idle Breakout`,
+    developer: `David Campbell III`,
+    desc: `The Backrooms is a horror multiplayer game mixed with different mechanics that will make you spend an intense night with friends.`,
+    controls: [`Unknown`]
   },
   {
     filter: [`drawing`],
