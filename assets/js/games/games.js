@@ -995,11 +995,20 @@ const gamesArr = [
   },
   {
     filter: ['food','simulator'],
-    link: `papas-scooperia`,
-    imgsrc: `papas-scooperia.jpg`,
-    name: `Papa's Scooperia`,
+    link: `papas-cupcakeria`,
+    imgsrc: `papas-cupcakeria.jpg`,
+    name: `Papa's Cupcakeria`,
     developer: `Flipline Studios`,
-    desc: `You've been stranded in a town without much money. However, Papa Louie has an idea. Stay in this town and open up an ice-cream shop! Bake cookies, sell ice-cream and make money!`,
+    desc: `Papa's Cupcakeria is a game in the Papa Louie series. It's the eighth cooking simulator game (aka "Gameria") in the series, and is the sequel to Papa's Hot Doggeria. It involves making cupcakes for the various customers that visit the establishment.`,
+    controls: [`Click to Play`]
+  },
+  {
+    filter: ['food','simulator'],
+    link: `papas-pastaria`,
+    imgsrc: `papas-pastaria.jpg`,
+    name: `Papa's Pastaria`,
+    developer: `Flipline Studios`,
+    desc: `Papa's Pastaria is a game in the Papa Louie series. It's the ninth cooking simulator game (aka "Gameria") in the seires, and is the sequel to Papa's Cupcakeria. It involves making pasta and bread for the various customers that visit the establishment.`,
     controls: [`Click to Play`]
   },
   {
