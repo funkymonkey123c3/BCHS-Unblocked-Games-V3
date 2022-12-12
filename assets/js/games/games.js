@@ -1022,20 +1022,65 @@ const gamesArr = [
   },
   {
     filter: ['food','simulator'],
-    link: `papas-sushiria`,
-    imgsrc: `papas-sushiria.jpg`,
-    name: `Papa's Sushiria`,
-    developer: `Flipline Studios`,
-    desc: `Papa's Sushiria is the thirteenth game in the Papa Louie restaurant management series. The game was first announced on October 25, 2016. Matt and Clover are the default workers in this game, as they were the winners of Papa's Next Chefs 2016. The game takes place in Sakura Bay.`,
-    controls: [`Click to Play`]
-  },
-  {
-    filter: ['food','simulator'],
     link: `papas-donuteria`,
     imgsrc: `papas-donuteria.jpg`,
     name: `Papa's Donuteria`,
     developer: `Flipline Studios`,
     desc: `Papa's Donuteria is a game in the Papa Louie series. It's the tenth cooking simulator game (aka "Gameria") in the seires, and is the sequel to Papa's Pastaria. It involves making donuts for the various customers that visit the establishment.`,
+    controls: [`Click to Play`]
+  },
+  {
+    filter: ['food','simulator'],
+    link: `papas-wingeria`,
+    imgsrc: `papas-wingeria.jpg`,
+    name: `Papa's Wingeria`,
+    developer: `Flipline Studios`,
+    desc: `Papa's Wingeria is the sixth game in the Papa Louie restaurant management series released by Flipline Studios on June 13, 2012. Chuck and Mandi are the default workers in the game. Custom workers, characters that are designed by the players, are introduced in this game.`,
+    controls: [`Click to Play`]
+  },
+  {
+    filter: ['food','simulator'],
+    link: `papas-hotdogeria`,
+    imgsrc: `papas-hotdogeria.jpg`,
+    name: `Papa's Hotdogeria`,
+    developer: `Flipline Studios`,
+    desc: `Papa's Hot Doggeria is the seventh game in the Papa Louie restaurant management series. The game was first announced on October 25, 2012. Taylor and Peggy are the workers in this game, as they were the winners of Papa's Next Chefs 2012. The game takes place in Griller Stadium, located in Tastyville. The game was officially released on November 19, 2012.`,
+    controls: [`Click to Play`]
+  },
+  {
+    filter: ['food','simulator'],
+    link: `papas-taco-mia`,
+    imgsrc: `papas-taco-mia.jpg`,
+    name: `Papa's Taco Mia`,
+    developer: `Flipline Studios`,
+    desc: `Build the largest and craziest restaurant in town where you'll sell the best tacos the locals have ever eaten! After willing a taco eating competition, you get the keys to Papa's Taco Mia! Good luck, since all of your favorite customers are back together with their friends.`,
+    controls: [`Click to Play`]
+  },
+  {
+    filter: ['food','simulator'],
+    link: `papas-freezeria`,
+    imgsrc: `papas-freezeria.jpg`,
+    name: `Papa's Freezeria`,
+    developer: `Flipline Studios`,
+    desc: `Papa's Freezeria is an ocean front ice cream shop that will surely be a relaxing way to spend the summer. That is until Papa Louie takes off, leaving you in charge during the peak of tourist season. Boat loads of customers are coming to Calypso Island in search of the best Freezer treats around.`,
+    controls: [`Click to Play`]
+  },
+  {
+    filter: ['food','simulator'],
+    link: `papa-louie-2`,
+    imgsrc: `papa-louie-2.jpg`,
+    name: `Papa Louie 2`,
+    developer: `Flipline Studios`,
+    desc: `Papa Louie 2: When Burgers Attack! Description: This is the long awaited sequel to the hit game Papa Louie: When Pizzas Attack! Marty and Rita's routine work day at the Burgeria turns into a nightmare when a strange portal appears in Papa's Burgeria.`,
+    controls: [`Click to Play`]
+  },
+  {
+    filter: ['food','simulator'],
+    link: `papa-louie`,
+    imgsrc: `papa-louie.jpg`,
+    name: `Papa Louie`,
+    developer: `Flipline Studios`,
+    desc: `Papa Louie: When Pizzas Attack is a platformer that lets you play as Papa Louie himself as he gets transported to worlds within pizza boxes. Your goal is to save the pizzas and free your employees and customers from captivity.`,
     controls: [`Click to Play`]
   },
   {
