@@ -157,7 +157,7 @@ const gamesArr = [
     controls: [`WASD/Arrow Keys: Move tiles`, `R: Restart`]
   },
   {
-    filter: [`misc`,'meme'],
+    filter: [`misc`,'meme','simulator'],
     link: `doge-miner`,
     imgsrc: `doge-miner.png`,
     name: `Doge Miner`,
@@ -550,6 +550,15 @@ const gamesArr = [
     controls: ['ARROW KEYS or WASD to move']
   },
   {
+    filter: ['simulator'],
+    link: `bezos-simulator`,
+    imgsrc: `bezos-simulator.png`,
+    name: `Bezos Simulator`,
+    developer: `Kris Lorischild`,
+    desc: 'A simple text-based adventure exploring the age-old question: What would you do if you had more money than any single human being should ever have? Be sure to expand the side column using the arrow in the upper left to view your current funds.',
+    controls: ['Click to Play']
+  },
+  {
     filter: ['plat'],
     link: `vex-7`,
     imgsrc: `vex-7.jpeg`,
@@ -877,7 +886,7 @@ const gamesArr = [
     controls: [`WASD/Arrow Keys/Mouse`]
   },
   {
-    filter: ['food'],
+    filter: ['food','simulator'],
     link: `papas-burgeria`,
     imgsrc: `papas-burgeria.jpg`,
     name: `Papa's Burgeria`,
@@ -886,7 +895,7 @@ const gamesArr = [
     controls: [`Click to Play`]
   },
   {
-    filter: ['food'],
+    filter: ['food','simulator'],
     link: `papas-pizzeria`,
     imgsrc: `papas-pizzeria.jpg`,
     name: `Papa's Pizzeria`,

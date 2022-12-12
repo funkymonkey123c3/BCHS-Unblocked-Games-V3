@@ -30,6 +30,10 @@ const filters = [
         filterid: 'clicker',
     },
     {
+        filter: 'Simulator',
+        filterid: 'simulator',
+    },
+    {
         filter: 'Runner',
         filterid: 'runner',
     },
