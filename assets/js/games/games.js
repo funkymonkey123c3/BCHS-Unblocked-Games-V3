@@ -193,6 +193,33 @@ const gamesArr = [
     controls: [`Click to Play`]
   },
   {
+    filter: ['sport'],
+    link: `cannon-basketball-4`,
+    imgsrc: `cannon-basketball-4.png`,
+    name: `Cannon Basketball 4`,
+    developer: `Oleg Kuzyk (Nepix Games)`,
+    desc: `Cannon Basketball is a puzzle game that combines the amazing sport of basketball together with Angry-Birds-style gameplay. You control a cannon and during each level, you must fire basketballs from the cannon into the basket.`,
+    controls: [`Click to Play`]
+  },
+  {
+    filter: ['music'],
+    link: `osu`,
+    imgsrc: `osu.png`,
+    name: `Osu!`,
+    developer: `Joshua-Usi`,
+    desc: `An in-development osu! clone designed to run on web browers It is planned to emulate the osu! experience as closely as possible in the browser Heavy development phase as the project heads closer to a release candidate`,
+    controls: [`For red circles, hit X or C. For blue circles, hit Z or V. Hit larger circles to the beat. When a larger circle overlaps the area in front of the drum, press the two appropriate keys together.`]
+  },
+  {
+    filter: ['shoot','flash'],
+    link: `canyon-defense`,
+    imgsrc: `canyon-defense.png`,
+    name: `Canyone Defense`,
+    developer: `Miniclip`,
+    desc: `Canyon Defense is a single player game by Miniclip. It was published on March 6, 2008. The game has three different options for style of canyon, each at a different difficulty, as well as the difficulty setting for number of attacks your canyon will receive.`,
+    controls: [`Click to Play`]
+  },
+  {
     filter: [`clicker`],
     link: `idle-breakout`,
     imgsrc: `idle-breakout.png`,
@@ -649,7 +676,7 @@ const gamesArr = [
     controls: [`W/Up Arrow`]
   },
   {
-    filter: ['misc'],
+    filter: ['music'],
     link: `geometry-dash`,
     imgsrc: `geometry-dash.png`,
     name: `Geometry Dash`,
@@ -935,7 +962,7 @@ const gamesArr = [
     link: `papas-burgeria`,
     imgsrc: `papas-burgeria.jpg`,
     name: `Papa's Burgeria`,
-    developer: `Flipline Studious`,
+    developer: `Flipline Studios`,
     desc: `Papa's Burgeria is a game in the Papa Louie series. It's the second cooking simulator game (aka "Gameria") in the seires, and is the sequel to Papa's Pizzeria. It revolves around making burgers for the various customers that visit the establishment.`,
     controls: [`Click to Play`]
   },
@@ -944,8 +971,35 @@ const gamesArr = [
     link: `papas-pizzeria`,
     imgsrc: `papas-pizzeria.jpg`,
     name: `Papa's Pizzeria`,
-    developer: `Flipline Studious`,
+    developer: `Flipline Studios`,
     desc: `Papa's Pizzeria is the first game in the Papa Louie time-management restaurant series, and was officially released on August 7, 2007. Papa's Pizzeria takes place in Tastyville, with Roy as the sole worker in the game.`,
+    controls: [`Click to Play`]
+  },
+  {
+    filter: ['food','simulator'],
+    link: `papas-pancakeria`,
+    imgsrc: `papas-pancakeria.jpg`,
+    name: `Papa's Pancakeria`,
+    developer: `Flipline Studios`,
+    desc: `Papa's Pancakeria is a game in the Papa Louie series. It's the fifth cooking simulator game (aka "Gameria") in the series, and is the sequel to Papa's Freezeria. It involves making pancakes and drinks for the various customers that visit the establishment.`,
+    controls: [`Click to Play`]
+  },
+  {
+    filter: ['food','simulator'],
+    link: `papas-scooperia`,
+    imgsrc: `papas-scooperia.jpg`,
+    name: `Papa's Scooperia`,
+    developer: `Flipline Studios`,
+    desc: `You've been stranded in a town without much money. However, Papa Louie has an idea. Stay in this town and open up an ice-cream shop! Bake cookies, sell ice-cream and make money!`,
+    controls: [`Click to Play`]
+  },
+  {
+    filter: ['food','simulator'],
+    link: `papas-scooperia`,
+    imgsrc: `papas-scooperia.jpg`,
+    name: `Papa's Scooperia`,
+    developer: `Flipline Studios`,
+    desc: `You've been stranded in a town without much money. However, Papa Louie has an idea. Stay in this town and open up an ice-cream shop! Bake cookies, sell ice-cream and make money!`,
     controls: [`Click to Play`]
   },
   {

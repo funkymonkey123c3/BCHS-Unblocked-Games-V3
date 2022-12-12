@@ -30,6 +30,10 @@ const filters = [
         filterid: 'scary'
     },
     {
+        filter: 'Music',
+        filterid: 'music'
+    },
+    {
         filter: 'Clicker',
         filterid: 'clicker',
     },
