@@ -18,6 +18,26 @@ const filters = [
         filterid: 'flash',
     },
     {
+        filter: 'Food',
+        filterid: 'food',
+    },
+    {
+        filter: 'Meme',
+        filterid: 'meme'
+    },
+    {
+        filter: 'Clicker',
+        filterid: 'clicker',
+    },
+    {
+        filter: 'Runner',
+        filterid: 'runner',
+    },
+    {
+        filter: 'Drawing',
+        filterid: 'drawing',
+    },
+    {
         filter: 'Platformer',
         filterid: 'plat',
     },

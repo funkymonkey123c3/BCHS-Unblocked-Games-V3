@@ -103,7 +103,7 @@ const gamesArr = [
     controls: [`Arrow Keys/WASD/Mouse`]
   },
   {
-    filter: [`misc`],
+    filter: ['food'],
     link: `cut-the-rope`,
     imgsrc: `cut-the-rope.png`,
     name: `Cut The Rope`,
@@ -112,7 +112,7 @@ const gamesArr = [
     controls: [`Mouse`]
   },
   {
-    filter: [`misc`],
+    filter: ['food'],
     link: `cut-the-rope-holiday`,
     imgsrc: `cut-the-rope-holiday.png`,
     name: `Cut The Rope: Holiday`,
@@ -121,12 +121,21 @@ const gamesArr = [
     controls: [`Mouse`]
   },
   {
-    filter: [`misc`],
+    filter: ['food'],
     link: `cut-the-rope-time-travel`,
     imgsrc: `cut-the-rope-time-travel.png`,
     name: `Cut The Rope: Time Travel`,
     developer: `ZeptoLab`,
     desc: `Cut the Rope is a charming physics-based puzzle game featuring a cute green monster named "Om Nom." Players must cut dangling ropes that hold candy so that it falls into the monster's mouth, while collecting as many bonus stars as possible.`,
+    controls: [`Mouse`]
+  },
+  {
+    filter: [`shoot,'misc`,'food'],
+    link: `om-nom-bounce`,
+    imgsrc: `om-nom-bounce.jpg`,
+    name: `Om Nom Bounce`,
+    developer: `ZeptoLab`,
+    desc: `Om Nom Bounce is an arcade game to defeat the enemy by shooting the candy right at them. Bounce your way through 40 challenging levels!`,
     controls: [`Mouse`]
   },
   {
@@ -139,7 +148,7 @@ const gamesArr = [
     controls: [`WASD/Arrow Keys: Move tiles`, `R: Restart`]
   },
   {
-    filter: [`misc`, `puzzle`],
+    filter: [`meme`, `puzzle`],
     link: `doge-2048`,
     imgsrc: `doge-2048.png`,
     name: `Doge 2048`,
@@ -148,16 +157,25 @@ const gamesArr = [
     controls: [`WASD/Arrow Keys: Move tiles`, `R: Restart`]
   },
   {
-    filter: [`misc`],
+    filter: [`misc`,'meme'],
     link: `doge-miner`,
     imgsrc: `doge-miner.png`,
     name: `Doge Miner`,
     developer: `Unknown`,
     desc: `Doge Miner is an awesome incremental game featuring our favorite dog. It is an idle game inspired by Cookie Clicker and uses the famous Doge meme featuring Shiba Inus. The goal of the game is to click your way to the moon.`,
-    controls: [`Mouse`]
+    controls: [`Click to Play`]
   },
   {
-    filter: [`misc`],
+    filter: [`clicker`],
+    link: `idle-breakout`,
+    imgsrc: `idle-breakout.png`,
+    name: `Idle Breakout`,
+    developer: `Kodiqi`,
+    desc: `Click on a brick to break it and score points. Use points to purchase new balls with different abilities and upgrade them. Balls will automatically bounce and break bricks to score more points.`,
+    controls: [`Click to Play`]
+  },
+  {
+    filter: [`drawing`],
     link: `draw-the-hill`,
     imgsrc: `draw-the-hill.png`,
     name: `Draw The Hill`,
@@ -214,7 +232,7 @@ const gamesArr = [
     controls: [`WASD/Arrow Keys: Control movement`, `Z/T: Shoot`, `X/Y: Throw bomb`]
   },
   {
-    filter: [`plat`],
+    filter: [`plat`,'runner'],
     link: `run-3`,
     imgsrc: `run3.jpg`,
     name: `Run 3`,
@@ -260,7 +278,7 @@ const gamesArr = [
     controls: [`AD/← →: Control movement`, `S/↓: Pick up items`, `W/↑: Call airstrike`, `Space: Attack`, `Shift: Pause game`]
   },
   {
-    filter: [`plat`],
+    filter: [`plat`,'emu'],
     link: `super-mario-64`,
     imgsrc: `sm64.jpeg`,
     name: `Super Mario 64`,
@@ -330,7 +348,7 @@ const gamesArr = [
     controls: [`WASD/Arrow Keys: Control movement`, `Mouse: Shoot`, `Shift/Space: Slow down time`]
   },
   {
-    filter: [`misc`],
+    filter: [`food`,'clicker'],
     link: `cookie-clicker`,
     imgsrc: `cookie-clicker.jpg`,
     name: `Cookie Clicker`,
@@ -487,13 +505,67 @@ const gamesArr = [
     controls: ['Mouse']
   },
   {
-    filter: ['misc'],
+    filter: ['runner'],
     link: `subway-surfers`,
     imgsrc: `subway-surfers.png`,
     name: `Subway Surfers`,
     developer: `Kiloo Gmaes/SYBO`,
     desc: 'Single player mobile gaming app and website developed by Kiloo. The aim of the game is to outrun a train inspector while dodging oncoming trains, barriers and other objects. Collecting coins on the way gives players advantages such as hover boards and high scores.',
     controls: ['Mouse/Arrow Keys']
+  },
+  {
+    filter: ['plat'],
+    link: `vex-3`,
+    imgsrc: `vex-3.png`,
+    name: `Vex 3`,
+    developer: `Acclaim Studios Austin`,
+    desc: 'Vex 3 is a challenging platform adventure game. Make your way from one platform to the other and avoid deadly obstacles such as buzzsaws, spikes, crumbling blocks, and more! Run and jump to reach the flags. These are the checkpoints',
+    controls: ['ARROW KEYS or WASD to move']
+  },
+  {
+    filter: ['plat'],
+    link: `vex-4`,
+    imgsrc: `vex-4.png`,
+    name: `Vex 4`,
+    developer: `Acclaim Studios Austin`,
+    desc: 'Vex 4 is a challenging platform adventure game. Make your way from one platform to the other and avoid deadly obstacles such as buzzsaws, spikes, crumbling blocks, and more! Run and jump to reach the flags. These are the checkpoints',
+    controls: ['ARROW KEYS or WASD to move']
+  },
+  {
+    filter: ['plat'],
+    link: `vex-5`,
+    imgsrc: `vex-5.jpeg`,
+    name: `Vex 5`,
+    developer: `Acclaim Studios Austin`,
+    desc: 'Vex 5 is a challenging platform adventure game. Make your way from one platform to the other and avoid deadly obstacles such as buzzsaws, spikes, crumbling blocks, and more! Run and jump to reach the flags. These are the checkpoints',
+    controls: ['ARROW KEYS or WASD to move']
+  },
+  {
+    filter: ['plat'],
+    link: `vex-6`,
+    imgsrc: `vex-6.jpeg`,
+    name: `Vex 6`,
+    developer: `Acclaim Studios Austin`,
+    desc: 'Vex 6 is a challenging platform adventure game. Make your way from one platform to the other and avoid deadly obstacles such as buzzsaws, spikes, crumbling blocks, and more! Run and jump to reach the flags. These are the checkpoints',
+    controls: ['ARROW KEYS or WASD to move']
+  },
+  {
+    filter: ['plat'],
+    link: `vex-7`,
+    imgsrc: `vex-7.jpeg`,
+    name: `Vex 7`,
+    developer: `Acclaim Studios Austin`,
+    desc: 'Vex 7 is a challenging platform adventure game. Make your way from one platform to the other and avoid deadly obstacles such as buzzsaws, spikes, crumbling blocks, and more! Run and jump to reach the flags. These are the checkpoints',
+    controls: ['ARROW KEYS or WASD to move']
+  },
+  {
+    filter: ['misc'],
+    link: `town-scaper`,
+    imgsrc: `town-scaper.jpg`,
+    name: `Town Scaper`,
+    developer: `Oskar Stålberg.`,
+    desc: 'More of a toy than a game. Pick colors from the palette, plop down colored blocks of house on the irregular grid',
+    controls: ['Click to Play']
   },
   {
     filter: ['flash', 'drive'],
@@ -560,7 +632,7 @@ const gamesArr = [
     controls: [`WASD/ARROW KEYS`]
   },
   {
-    filter: [`flash`,'misc'],
+    filter: [`flash`,'clicker'],
     link: `big-red-button`,
     imgsrc: `big-red-button.png`,
     name: `Big Red Button`,
@@ -773,7 +845,7 @@ const gamesArr = [
     controls: [`Arrow Keys: Control movement`, `A: Shoot`, `S: Jump`]
   },
   {
-    filter: [`sport`],
+    filter: [`sport`,'mp'],
     link: `basketball-stars`,
     imgsrc: `bbstars.png`,
     name: `Basketball Stars`,
@@ -781,6 +853,55 @@ const gamesArr = [
     desc: `Basketball Stars is a 2-player basketball game created by Madpuffers. You can play solo or with a friend as a variety of legendary basketball players. 
     Shoot basketball with the likes of LeBron James, James Harden, and Stephen Curry in Basketball Stars!`,
     controls: [`WASD/Arrow Keys: Control movement`, `B/L: Shoot/Steal`, `S/↓: Pump fake/block`, `Double-Tap A/D/←/→: Sprint`, `K/V: Super shot`]
+  },
+  {
+    filter: [`driver`,'mp'],
+    link: `smash-karts`,
+    imgsrc: `smash-karts.png`,
+    name: `Smash Karts`,
+    developer: `Tall Team`,
+    desc: `Smash Karts is a free io Multiplayer Kart Battle Arena game. Drive fast. Fire rockets. Make big explosions.`,
+    controls: [`Forward: W or Up.
+    Backward: S or Back.
+    Left: A or Left.
+    Right: D or Right.
+    Fire: Space.`]
+  },
+  {
+    filter: ['runner'],
+    link: `temple-run-2`,
+    imgsrc: `temple-run-2.png`,
+    name: `Temple Run 2`,
+    developer: `Keith Shepherd`,
+    desc: `Temple Run 2 is an endless running video game developed and published by Imangi Studios. A sequel to Temple Run, the game was produced, designed and programmed by husband and wife team Keith Shepherd and Natalia Luckyanova, with art by Kiril Tchangov.`,
+    controls: [`WASD/Arrow Keys/Mouse`]
+  },
+  {
+    filter: ['food'],
+    link: `papas-burgeria`,
+    imgsrc: `papas-burgeria.jpg`,
+    name: `Papa's Burgeria`,
+    developer: `Flipline Studious`,
+    desc: `Papa's Burgeria is a game in the Papa Louie series. It's the second cooking simulator game (aka "Gameria") in the seires, and is the sequel to Papa's Pizzeria. It revolves around making burgers for the various customers that visit the establishment.`,
+    controls: [`Click to Play`]
+  },
+  {
+    filter: ['food'],
+    link: `papas-pizzeria`,
+    imgsrc: `papas-pizzeria.jpg`,
+    name: `Papa's Pizzeria`,
+    developer: `Flipline Studious`,
+    desc: `Papa's Pizzeria is the first game in the Papa Louie time-management restaurant series, and was officially released on August 7, 2007. Papa's Pizzeria takes place in Tastyville, with Roy as the sole worker in the game.`,
+    controls: [`Click to Play`]
+  },
+  {
+    filter: ['mp','misc'],
+    link: `paper-io-2`,
+    imgsrc: `paper-io-2.png`,
+    name: `Paper.io 2`,
+    developer: `Voodoo`,
+    desc: `Paper.io 2 is a fun game which is . io based, that requires players to chomp away at the arena as well as the safe zone of other players within the game. The multi-player chomp game is a fast-paced game which lets players chomp pieces off the field and turn those pieces to their perspective colors.`,
+    controls: [`Click to Play`]
   },
   {
     filter: [`misc`, `flash`],
@@ -905,10 +1026,47 @@ const gamesArr = [
     controls: [`WASD/Arrow Keys: Control movement`]  
   },
   {
-    filter: [`plat`, `flash`],
+    filter: [`drive`],
+    link: `moto-x3m-2`,
+    imgsrc: `moto-x3m-2.jpg`,
+    name: `Moto X3M 2`,
+    developer: `MadPuffers`,
+    desc: `Use the arrow keys to accelerate, brake, or flip your bike. Make it through the course as quickly as possible. Do stunts in the air to shave time off of your run!`,
+    controls: [`WASD/Arrow Keys: Control movement`]  
+  },
+  {
+    filter: [`drive`],
+    link: `moto-x3m-pool-party`,
+    imgsrc: `moto-x3m-pool-party.jpg`,
+    name: `Moto X3M Pool Party`,
+    developer: `MadPuffers`,
+    desc: `Use the arrow keys to accelerate, brake, or flip your bike. Make it through the course as quickly as possible. Do stunts in the air to shave time off of your run!`,
+    controls: [`WASD/Arrow Keys: Control movement`]  
+  },
+  {
+    filter: [`drive`],
+    link: `moto-x3m-spooky`,
+    imgsrc: `moto-x3m-spooky.jpeg`,
+    name: `Moto X3M Spooky`,
+    developer: `MadPuffers`,
+    desc: `Use the arrow keys to accelerate, brake, or flip your bike. Make it through the course as quickly as possible. Do stunts in the air to shave time off of your run!`,
+    controls: [`WASD/Arrow Keys: Control movement`]  
+  },
+  {
+    filter: [`misc`, `flash`],
     link: `learn-to-fly`,
     imgsrc: `learntofly.png`,
     name: `Learn To Fly`,
+    developer: `lightbringer777`,
+    desc: `One Penguin Takes it personally when he is surfing the web and stumbles upon a web site telling him that he cant fly, 
+    after that he sets his mind to research and practice flying until he can prove the world that he can.. Learn to Fly!`,
+    controls: [`←/→: Adjust angle`, `Space: Rockets`]
+  },
+  {
+    filter: [`misc`, `flash`],
+    link: `learn-to-fly-2`,
+    imgsrc: `learn-to-fly-2.jpg`,
+    name: `Learn To Fly 2`,
     developer: `lightbringer777`,
     desc: `One Penguin Takes it personally when he is surfing the web and stumbles upon a web site telling him that he cant fly, 
     after that he sets his mind to research and practice flying until he can prove the world that he can.. Learn to Fly!`,
