@@ -1012,6 +1012,33 @@ const gamesArr = [
     controls: [`Click to Play`]
   },
   {
+    filter: ['food','simulator'],
+    link: `papas-sushiria`,
+    imgsrc: `papas-sushiria.jpg`,
+    name: `Papa's Sushiria`,
+    developer: `Flipline Studios`,
+    desc: `Papa's Sushiria is the thirteenth game in the Papa Louie restaurant management series. The game was first announced on October 25, 2016. Matt and Clover are the default workers in this game, as they were the winners of Papa's Next Chefs 2016. The game takes place in Sakura Bay.`,
+    controls: [`Click to Play`]
+  },
+  {
+    filter: ['food','simulator'],
+    link: `papas-sushiria`,
+    imgsrc: `papas-sushiria.jpg`,
+    name: `Papa's Sushiria`,
+    developer: `Flipline Studios`,
+    desc: `Papa's Sushiria is the thirteenth game in the Papa Louie restaurant management series. The game was first announced on October 25, 2016. Matt and Clover are the default workers in this game, as they were the winners of Papa's Next Chefs 2016. The game takes place in Sakura Bay.`,
+    controls: [`Click to Play`]
+  },
+  {
+    filter: ['food','simulator'],
+    link: `papas-donuteria`,
+    imgsrc: `papas-donuteria.jpg`,
+    name: `Papa's Donuteria`,
+    developer: `Flipline Studios`,
+    desc: `Papa's Donuteria is a game in the Papa Louie series. It's the tenth cooking simulator game (aka "Gameria") in the seires, and is the sequel to Papa's Pastaria. It involves making donuts for the various customers that visit the establishment.`,
+    controls: [`Click to Play`]
+  },
+  {
     filter: ['mp','misc'],
     link: `paper-io-2`,
     imgsrc: `paper-io-2.png`,
